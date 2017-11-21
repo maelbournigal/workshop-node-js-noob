@@ -1,3 +1,4 @@
 exports.run = function(input) {
-  console.log("Exercise #2");
+  var separation = input.split( );
+  console.log();
 };
