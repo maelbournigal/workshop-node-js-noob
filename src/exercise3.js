@@ -1,3 +1,7 @@
 exports.run = function(input) {
-  console.log("Exercise #3");
+  var result = 1;
+  for(var i = 0; i<input.lenght; i++){
+    if(input[i].multiply === true){result = result * input[i].value}
+  }
+  console.log(result);
 };
